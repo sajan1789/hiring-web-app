@@ -5,6 +5,7 @@ import ServiceLogo from '../assets/Image/rafiki.svg';
 import { ArrowForwardIcon, CheckCircleIcon } from '@chakra-ui/icons'; 
 import { List, ListItem, ListIcon } from '@chakra-ui/react'; 
 
+
 const Homes = () => { 
   const ourServices = [ 
     { 
@@ -61,9 +62,7 @@ const Homes = () => {
             <p>We are passionate about connecting people with opportunities. Our mission is to bridge the gap between talent and employers by providing innovative and efficient recruitment solutions that empower businesses to grow and thrive.</p> 
           </div> 
           <div> 
-            <button className="cta"> 
-              <span>Learn More</span> 
-            </button> 
+            
           </div> 
         </div> 
         <div className='flex items-center justify-center w-full md:w-[50%] mt-6 md:mt-0'> 
@@ -133,10 +132,12 @@ const Homes = () => {
         </div> 
       ))} 
       <div> 
-        <h1 className="font-semibold text-lg md:text-1xl bg-gradient-to-r from-blue-900 via-purple-500 to-pink-500 bg-clip-text text-transparent"> 
+        {/* <h1 className="font-semibold text-lg md:text-1xl bg-gradient-to-r from-blue-900 via-purple-500 to-pink-500 bg-clip-text text-transparent"> 
           View All Services 
-        </h1> 
+        </h1>  */}
+     
       </div> 
+      
     </div> 
   ); 
 }; 
